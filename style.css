@@ -10,18 +10,20 @@ div{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #958f8f;
+  background-color: #000000;
 }
 
 label{
   height: 2em;
   padding: 1em;
   font-size: 24px;
-  margin-bottom: 1em;
+  margin-bottom:      1em;
+  color:white
 }
 span{
   font-size: 24px;
   margin-bottom: 1em;
+  color:white
 }
 
 button{
@@ -34,7 +36,7 @@ button{
 }
 
 button:hover{
-  color: wheat;
-  background-color: blueviolet;
+  color: rgb(250, 250, 250);
+  background-color: rgb(250, 13, 13);
   transform: scale(1.05);
 }
